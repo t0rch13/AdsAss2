@@ -19,5 +19,10 @@ public class MyArrayList<T> {
         hiddenArr = biggerArr;
     }
 
-
+    public void add(T item){
+        if (size == hiddenArr.length) {
+            increaseArray();
+        }
+        hiddenArr[size++] = item;
+    }
 }
