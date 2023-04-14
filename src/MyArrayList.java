@@ -1,6 +1,6 @@
 import java.util.Iterator;
 
-public class MyArrayList<T> {
+public class MyArrayList<T> implements List<T>{
     private Object[] hiddenArr;
     private int size;
 
@@ -36,6 +36,11 @@ public class MyArrayList<T> {
 
     public int size() {
         return size;
+    }
+
+    @Override
+    public Iterator<T> iterator() {
+        return new MyIterator();
     }
 
     private class MyIterator implements Iterator<T> {
