@@ -31,4 +31,8 @@ public class MyArrayList<T> {
 
         return (T)hiddenArr[index];
     }
+
+    public int size() {
+        return size;
+    }
 }
