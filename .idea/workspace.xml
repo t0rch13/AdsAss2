@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="08889f51-b82c-4282-ab06-9201dd35dc62" name="Changes" comment="List interface creation">
-      <change afterPath="$PROJECT_DIR$/src/MyArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="08889f51-b82c-4282-ab06-9201dd35dc62" name="Changes" comment="MyArrayList class, adding the constructor" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,7 +42,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1681463731400</updated>
-      <workItem from="1681463733158" duration="803000" />
+      <workItem from="1681463733158" duration="1111000" />
     </task>
     <task id="LOCAL-00001" summary="List interface creation">
       <created>1681464033430</created>
@@ -54,7 +51,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681464033430</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="MyArrayList class, adding the constructor">
+      <created>1681464728255</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1681464728255</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -73,6 +77,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="List interface creation" />
-    <option name="LAST_COMMIT_MESSAGE" value="List interface creation" />
+    <MESSAGE value="MyArrayList class, adding the constructor" />
+    <option name="LAST_COMMIT_MESSAGE" value="MyArrayList class, adding the constructor" />
   </component>
 </project>

@@ -1,6 +1,6 @@
 public class MyArrayList<T> {
     private Object[] hiddenArr;
-    private int length;
+    private int size;
 
     public MyArrayList(int initialCapacity){
         hiddenArr = new Object[initialCapacity];
@@ -8,5 +8,16 @@ public class MyArrayList<T> {
     public MyArrayList(){
         this(5);
     }
+
+    private void increaseArray(){
+        int biggerSize = hiddenArr.length * 2;
+        Object[] biggerArr = new Object[biggerSize];
+
+        for (int i = 0; i < hiddenArr.length; i++) {
+            biggerArr[i] = hiddenArr[i];
+        }
+        hiddenArr = biggerArr;
+    }
+
 
 }
