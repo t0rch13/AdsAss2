@@ -25,4 +25,10 @@ public class MyArrayList<T> {
         }
         hiddenArr[size++] = item;
     }
+
+    public T get(int index) {
+        if (index >= size) throw new IndexOutOfBoundsException();
+
+        return (T)hiddenArr[index];
+    }
 }
