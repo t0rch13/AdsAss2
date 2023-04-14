@@ -1,3 +1,5 @@
+import java.util.Iterator;
+
 public class MyArrayList<T> {
     private Object[] hiddenArr;
     private int size;
@@ -35,4 +37,21 @@ public class MyArrayList<T> {
     public int size() {
         return size;
     }
+
+    private class MyIterator implements Iterator<T> {
+        private int cursor;
+
+        @Override
+        public boolean hasNext(){
+            return cursor < size();
+        }
+
+        @Override
+        public T next() {
+            return get(cursor++);
+        }
+    }
+
+
+
 }
