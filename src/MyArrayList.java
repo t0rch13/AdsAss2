@@ -1,6 +1,6 @@
 import java.util.Iterator;
 
-public class MyArrayList<T> implements List<T>{
+public class MyArrayList<T> implements MyList<T>{
     private Object[] hiddenArr;
     private int size;
 
@@ -11,7 +11,7 @@ public class MyArrayList<T> implements List<T>{
         this(5);
     }
 
-    private void increaseArray(){
+    private void increaseArray(){               //increasing the size of arraylist, making it twice bigger
         int biggerSize = hiddenArr.length * 2;
         Object[] biggerArr = new Object[biggerSize];
 
@@ -21,6 +21,7 @@ public class MyArrayList<T> implements List<T>{
         hiddenArr = biggerArr;
     }
 
+    @Override
     public void add(T item){
         if (size == hiddenArr.length) {
             increaseArray();
@@ -28,12 +29,14 @@ public class MyArrayList<T> implements List<T>{
         hiddenArr[size++] = item;
     }
 
+    @Override
     public T get(int index) {
         if (index >= size) throw new IndexOutOfBoundsException();
 
         return (T)hiddenArr[index];
     }
 
+    @Override
     public int size() {
         return size;
     }
@@ -56,7 +59,16 @@ public class MyArrayList<T> implements List<T>{
             return get(cursor++);
         }
     }
-
+    @Override
+    public T remove(int index){
+        T elem = get(index);
+        for (int i = index; i < size - 1; i++) {
+            hiddenArr[i] = hiddenArr[i+1];
+        }
+        hiddenArr[size - 1] = null;
+        size--;
+        return elem;
+    }
 
 
 }

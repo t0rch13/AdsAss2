@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="08889f51-b82c-4282-ab06-9201dd35dc62" name="Changes" comment="feat: MyArrayList MyIterator class">
+    <list default="true" id="08889f51-b82c-4282-ab06-9201dd35dc62" name="Changes" comment="feat: MyArrayList implements List">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/List.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyArrayList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,13 +32,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="AdsAss2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -44,7 +61,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1681463731400</updated>
-      <workItem from="1681463733158" duration="3121000" />
+      <workItem from="1681463733158" duration="4484000" />
+      <workItem from="1681540501806" duration="29000" />
+      <workItem from="1681553029928" duration="2960000" />
     </task>
     <task id="LOCAL-00001" summary="List interface creation">
       <created>1681464033430</created>
@@ -95,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681472052655</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="feat: MyArrayList implements List">
+      <created>1681472275360</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1681472275360</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,6 +146,7 @@
     <MESSAGE value="feat: MyArrayList get method" />
     <MESSAGE value="feat: MyArrayList size method" />
     <MESSAGE value="feat: MyArrayList MyIterator class" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: MyArrayList MyIterator class" />
+    <MESSAGE value="feat: MyArrayList implements List" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: MyArrayList implements List" />
   </component>
 </project>
