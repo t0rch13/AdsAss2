@@ -32,7 +32,6 @@ public class MyArrayList<T> implements MyList<T>{
     @Override
     public T get(int index) {
         if (index >= size) throw new IndexOutOfBoundsException();
-
         return (T)hiddenArr[index];
     }
 
@@ -59,8 +58,9 @@ public class MyArrayList<T> implements MyList<T>{
             return get(cursor++);
         }
     }
-    @Override
+
     public T remove(int index){
+        if (index >= size)throw new IndexOutOfBoundsException();
         T elem = get(index);
         for (int i = index; i < size - 1; i++) {
             hiddenArr[i] = hiddenArr[i+1];
