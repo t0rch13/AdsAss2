@@ -18,7 +18,6 @@ public class MyLinkedList<T> implements MyList<T>{
 
     public void add(T item){ // adding items to the end of the linkedlist
         MyNode newNode = new MyNode(item);
-        size++;
         if(head == null){ //if the list is empty
             head = tail = newNode;
         }
