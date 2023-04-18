@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="08889f51-b82c-4282-ab06-9201dd35dc62" name="Changes" comment="feat: MyLinkedList remove method with comments">
+    <list default="true" id="08889f51-b82c-4282-ab06-9201dd35dc62" name="Changes" comment="feat!: - README file, and comments">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +66,7 @@
       <workItem from="1681640829119" duration="595000" />
       <workItem from="1681752960576" duration="2421000" />
       <workItem from="1681761386613" duration="2523000" />
-      <workItem from="1681826714096" duration="3684000" />
+      <workItem from="1681826714096" duration="4519000" />
     </task>
     <task id="LOCAL-00001" summary="List interface creation">
       <created>1681464033430</created>
@@ -145,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681834334583</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="feat!: - README file, and comments">
+      <created>1681843879188</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1681843879188</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,6 +181,7 @@
     <MESSAGE value="feat: MyArrayList T remove method" />
     <MESSAGE value="feat: MyLinkedList get method from the head or tail" />
     <MESSAGE value="feat: MyLinkedList remove method with comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: MyLinkedList remove method with comments" />
+    <MESSAGE value="feat!: - README file, and comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat!: - README file, and comments" />
   </component>
 </project>
