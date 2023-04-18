@@ -1,17 +1,17 @@
 import java.util.Iterator;
 
 public class MyArrayList<T> implements MyList<T>{
-    private Object[] hiddenArr;
-    private int size;
+    private Object[] hiddenArr; // array of objects inside the arraylist
+    private int size; //shows the size of the arraylist
 
     public MyArrayList(int initialCapacity){
-        hiddenArr = new Object[initialCapacity];
+        hiddenArr = new Object[initialCapacity]; //capacity != size
     }
     public MyArrayList(){
-        this(5);
+        this(7);
     }
 
-    private void increaseArray(){               //increasing the size of arraylist, making it twice bigger
+    private void increaseArray(){        //increasing the size of arraylist, making it twice bigger
         int biggerSize = hiddenArr.length * 2;
         Object[] biggerArr = new Object[biggerSize];
 
@@ -22,7 +22,7 @@ public class MyArrayList<T> implements MyList<T>{
     }
 
     @Override
-    public void add(T item){
+    public void add(T item){ // adding the element to the end of the arraylist
         if (size == hiddenArr.length) {
             increaseArray();
         }
@@ -30,7 +30,7 @@ public class MyArrayList<T> implements MyList<T>{
     }
 
     @Override
-    public T get(int index) {
+    public T get(int index) { // returning the data of the element of the certain index
         if (index >= size) throw new IndexOutOfBoundsException();
         return (T)hiddenArr[index];
     }
@@ -45,7 +45,7 @@ public class MyArrayList<T> implements MyList<T>{
         return new MyIterator();
     }
 
-    private class MyIterator implements Iterator<T> {
+    private class MyIterator implements Iterator<T> { // to iterate through arraylist
         private int cursor;
 
         @Override
